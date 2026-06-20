@@ -74,6 +74,10 @@ a {
 }
 
 .brand {
+  padding: 6px 10px 6px 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(0, 15, 90, 0.68);
   font-weight: 800;
   text-decoration: none;
 }
@@ -256,6 +260,7 @@ h3 {
 .reference-section {
   margin: 0 0 1.25rem;
   padding: clamp(1rem, 3vw, 2rem);
+  scroll-margin-top: 96px;
   color: var(--ink);
   background: rgba(247, 251, 255, 0.96);
 }
@@ -461,6 +466,12 @@ h3 {
 
   .character-copy {
     position: static;
+  }
+
+  .links-section,
+  .contact-section,
+  .reference-section {
+    scroll-margin-top: 14px;
   }
 }
 
